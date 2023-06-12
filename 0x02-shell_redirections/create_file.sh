@@ -17,6 +17,10 @@ echo $line2_content>>$file_name
 chmod u+x $file_name
 #update
 git pull
+#update configuration
+git config --global user.name "EnockYator"
+git config --global user.email "ekyator02@gmail.com"
+git config -global core.editor emacs
 #add
 git add .
 #stage changes
