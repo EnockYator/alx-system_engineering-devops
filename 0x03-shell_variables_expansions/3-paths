@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=:; echo "$(tr : 'n' <<< "$PATH" | wc -l)"
+echo "$(tr : 'n' <<< "$PATH" | wc -l)"
